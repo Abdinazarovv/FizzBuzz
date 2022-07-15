@@ -1,11 +1,11 @@
-const elForm = document.querySelector('.form');
-const elFormInput = document.querySelector('.form-input');
-const elResult = document.querySelector('.result');
+var elForm = document.querySelector('.form');
+var elFormInput = document.querySelector('.form-input');
+var elResult = document.querySelector('.result');
 
 elForm.addEventListener("submit", function (event) {
     event.preventDefault();
 
-    let inputNumber = elFormInput.value;
+    var inputNumber = elFormInput.value;
     inputNumber = inputNumber * 1;
 
     if (inputNumber === 0) {
